@@ -1,2 +1,2 @@
-${GIT_DIR}/resources/android_elements.json
-${GIT_DIR}/resources/android_phone_elements.json
+resources/android_elements.json
+resources/android_phone_elements.json

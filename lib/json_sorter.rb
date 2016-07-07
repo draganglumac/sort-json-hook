@@ -103,6 +103,7 @@ class JsonSorter
             next_tok = nil
           end
         else
+          next_tok = nil
           next
         end
       end while (token)
