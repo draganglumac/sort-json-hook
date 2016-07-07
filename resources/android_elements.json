@@ -1,0 +1,879 @@
+{
+  "navigate": {
+    "menu_list": {
+      "id": "com.bskyb.skyq:id/nav_menu_item_title"
+    }
+  },
+  "box_connect_alert_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/box_img_id"
+    },
+    "connect_btn": {
+      "id": "com.bskyb.skyq:id/positive_button_id"
+    },
+    "error_msg": {
+      "id": "com.bskyb.skyq:id/text_id"
+    },
+    "search_again_btn": {
+      "id": "com.bskyb.skyq:id/search_again_button"
+    }
+  },
+  "common_page": {
+    "home_icon": {
+      "id": "com.bskyb.skyq:id/action_home"
+    },
+    "search_txt_field": {
+      "id": "com.bskyb.skyq:id/search_edit_text"
+    },
+    "search_results_list": {
+      "id": "com.bskyb.skyq:id/search_results_text"
+    },
+    "search_icon": {
+      "id": "com.bskyb.skyq:id/action_search"
+    },
+    "clear_search": {
+      "id": "com.bskyb.skyq:id/search_cross_icon"
+    },
+    "back_button": {
+      "id": "com.bskyb.skyq:id/nav_panel_back_title"
+    },
+    "pin_title": {
+      "id": "com.bskyb.skyq:id/pin_box0"
+    },
+    "sign_in_btn": {
+      "id": "com.bskyb.skyq:id/positive_button_id"
+    }
+  },
+  "top_picks_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_item_title"
+    },
+    "unique_value": {
+      "text": "Top Picks"
+    }
+  },
+  "pgms_tile": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/header_text"
+    },
+    "pgm_image_list": {
+      "id": "com.bskyb.skyq:id/programme_image"
+    },
+    "pgm_title_list": {
+      "id": "com.bskyb.skyq:id/programme_title"
+    },
+    "channel_uuid_list": {
+      "id": "com.bskyb.skyq:id/programme_image_channel_content_description"
+    }
+  },
+  "home_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "unique_value": {
+      "text": "Home"
+    },
+    "title": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "menu_list": {
+      "id": "com.bskyb.skyq:id/nav_menu_item_title"
+    },
+    "recordings_menu_list": {
+      "id": "com.bskyb.skyq:id/nav_menu_item_title"
+    },
+    "app_connect_status": {
+      "id": "com.bskyb.skyq:id/splash_fragment_textview_status"
+    },
+    "try_again_btn": {
+      "id": "com.bskyb.skyq:id/splash_fragment_button_retry"
+    },
+    "no_stb_btn": {
+      "id": "com.bskyb.skyq:id/positive_button_id"
+    },
+    "no_network_msg": {
+      "id": "com.bskyb.skyq:id/no_network_connection_title"
+    },
+    "error_msg": {
+      "id": "com.bskyb.skyq:id/text_id"
+    }
+  },
+  "recordings_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "unique_value": {
+      "text": "Recordings"
+    },
+    "header_text": {
+      "id": "com.bskyb.skyq:id/header_text"
+    }
+  },
+  "channel_page": {
+    "title": {
+      "id": "com.bskyb.skyq:id/actionbar_title"
+    },
+    "watch_button": {
+      "id": "com.bskyb.skyq:id/menu_watch"
+    }
+  },
+  "most_recent_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "unique_value": {
+      "text": "Recordings"
+    },
+    "title": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "program_name_list": {
+      "id": "com.bskyb.skyq:id/programme_title"
+    },
+    "channel_name_list": {
+      "id": "com.bskyb.skyq:id/programme_image_channel_content_description"
+    },
+    "stack_icon": {
+      "id": "com.bskyb.skyq:id/programme_stack"
+    },
+    "no_recordings_message": {
+      "id": "com.bskyb.skyq:id/status"
+    },
+    "subtitle_badge": {
+      "id": "com.bskyb.skyq:id/subtitle_badge"
+    },
+    "hd_badge": {
+      "id": "com.bskyb.skyq:id/hd_badge"
+    },
+    "sd_badge": {
+      "id": "com.bskyb.skyq:id/sd_badge"
+    }
+  },
+  "recordings_pgm_list_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    }
+  },
+  "top_picks_interim_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "pgm_metadata_list": {
+      "id": "com.bskyb.skyq:id/collection_cell_content_container"
+    },
+    "more_options_button": {
+      "id": "com.bskyb.skyq:id/collection_cell_more_options_button"
+    }
+  },
+  "pgm_list_page": {
+    "title": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "program_title_list": {
+      "id": "com.bskyb.skyq:id/programme_title"
+    },
+    "program_duration_list": {
+      "id": "com.bskyb.skyq:id/collection_cell_duration"
+    },
+    "program_start_time_list": {
+      "id": "com.bskyb.skyq:id/collection_cell_metadata_1"
+    },
+    "program_desc_list": {
+      "id": "com.bskyb.skyq:id/collection_cell_synopsis"
+    },
+    "recording_series_icon": {
+      "id": "com.bskyb.skyq:id/recording_series_badge"
+    },
+    "recording_icon": {
+      "id": "com.bskyb.skyq:id/recording_badge"
+    },
+    "record_status": {
+      "id": "com.bskyb.skyq:id/collection_cell_metadata_2"
+    },
+    "sideload_status": {
+      "id": "com.bskyb.skyq:id/collection_cell_metadata_3"
+    },
+    "image_list": {
+      "id": "com.bskyb.skyq:id/programme_image_glass"
+    },
+    "pgm_metadata_list": {
+      "id": "com.bskyb.skyq:id/collection_cell_content_container"
+    },
+    "more_options_xpath": {},
+    "alert_msg": {
+      "id": "android:id/alertTitle"
+    },
+    "alert_ok_btn": {
+      "id": "android:id/button1"
+    },
+    "play_icon_xpath": {},
+    "play_images_list": {
+      "id": "com.bskyb.skyq:id/programme_image"
+    },
+    "sign_in_alert_title": {
+      "id": "android:id/alertTitle"
+    },
+    "sign_in_btn": {
+      "id": "android:id/button1"
+    },
+    "sign_in_cancel_btn": {
+      "id": "android:id/button2"
+    }
+  },
+  "scheduled_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "unique_value": {
+      "text": "Recordings"
+    },
+    "empty_status_message": {
+      "id": "com.bskyb.skyq:id/status"
+    },
+    "title": {
+      "id": "com.bskyb.skyq:id/actionbar_title"
+    },
+    "program_start_time_list": {
+      "id": "com.bskyb.skyq:id/collection_cell_scheduled_datetime"
+    },
+    "program_name_list": {
+      "id": "com.bskyb.skyq:id/programme_title"
+    },
+    "channel_name_list": {
+      "id": "com.bskyb.skyq:id/collection_cell_channel_name"
+    }
+  },
+  "tv_guide_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "title": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "genre_item_list": {
+      "id": "com.bskyb.skyq:id/nav_menu_item_title"
+    },
+    "channel_name_list": {
+      "id": "com.bskyb.skyq:id/services_list_title"
+    },
+    "channel_number_list": {
+      "id": "com.bskyb.skyq:id/services_list_channel_number"
+    },
+    "channel_name": {
+      "name": "name"
+    },
+    "channel_name_class": {
+      "class": "android.view.View"
+    },
+    "program_name": {
+      "id": "com.bskyb.skyq:id/programme_strip_title"
+    },
+    "program_name_list": {
+      "id": "com.bskyb.skyq:id/channel_day_list_title"
+    },
+    "program_starttime_list": {
+      "id": "com.bskyb.skyq:id/channel_day_list_starttime"
+    },
+    "program_duration_list": {
+      "id": "com.bskyb.skyq:id/channel_day_list_duration"
+    },
+    "record_once_button": {
+      "id": "com.bskyb.skyq:id/programme_strip_button_recordonce"
+    },
+    "record_series_button": {
+      "id": "com.bskyb.skyq:id/programme_strip_button_recordseries"
+    },
+    "cancel_record_button": {
+      "id": "com.bskyb.skyq:id/programme_strip_button_cancelrecording"
+    },
+    "grid": {
+      "id": "com.bskyb.skyq:id/rightListView"
+    },
+    "pgm_strip_options_button": {
+      "id": "com.bskyb.skyq:id/collection_cell_more_options_button"
+    },
+    "more_options_qa": {
+      "id": "com.bskyb.skyq:id/more_options_qa"
+    },
+    "more_options_list": {
+      "id": "android:id/text1"
+    },
+    "days_list": {
+      "id": "com.bskyb.skyq:id/tab_text"
+    },
+    "pgm_play_icon": {
+      "id": "com.bskyb.skyq:id/programme_image_play"
+    },
+    "recording_series_icon": {
+      "id": "com.bskyb.skyq:id/recording_series_badge"
+    },
+    "recording_icon": {
+      "id": "com.bskyb.skyq:id/recording_badge"
+    },
+    "progress_bar": {
+      "id": "com.bskyb.skyq:id/programme_image_progress_bar"
+    },
+    "series_badge": {
+      "id": "com.bskyb.skyq:id/recording_series_badge"
+    },
+    "pgm_strip_duration": {
+      "id": "com.bskyb.skyq:id/programme_strip_duration"
+    },
+    "pgm_strip_broadcast_time": {
+      "id": "com.bskyb.skyq:id/programme_strip_start_end_time"
+    },
+    "pgm_strip_synopsis": {
+      "id": "com.bskyb.skyq:id/programme_strip_synopsis"
+    },
+    "hd_badge": {
+      "id": "com.bskyb.skyq:id/hd_badge"
+    },
+    "age_rating_badge": {
+      "id": "com.bskyb.skyq:id/age_rating_badge"
+    },
+    "grid_row_view": {
+      "id": "com.bskyb.skyq:id/programme_grid_row_view"
+    }
+  },
+  "video_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/video_info_qa"
+    },
+    "swirly_progress_message": {
+      "id": "com.bskyb.skyq:id/drm_play_fragment_swirly_progress"
+    },
+    "rewind_button": {
+      "id": "com.bskyb.skyq:id/back_30s_button"
+    },
+    "video_current_position_mins": {
+      "id": "com.bskyb.skyq:id/video_current_position"
+    },
+    "progress_bar": {
+      "id": "com.bskyb.skyq:id/seekbar"
+    },
+    "video_duration": {
+      "id": "com.bskyb.skyq:id/video_duration"
+    },
+    "play_pause_btn": {
+      "id": "com.bskyb.skyq:id/play_pause_button"
+    },
+    "streaming_frame": {
+      "class": "android.widget.FrameLayout"
+    },
+    "alert_frame": {
+      "id": "android:id/parentPanel"
+    },
+    "alert_message": {
+      "id": "android:id/alertTitle"
+    },
+    "alert_ok_btn": {
+      "id": "android:id/button1"
+    },
+    "pin_title": {
+      "id": "com.bskyb.skyq:id/pin_box0"
+    },
+    "pin_button": {
+      "id": "com.bskyb.skyq:id/pin_buttondigit"
+    },
+    "incorrect_pin_msg": {
+      "id": "com.bskyb.skyq:id/pin_errorline1"
+    },
+    "attempts_msg": {
+      "id": "com.bskyb.skyq:id/pin_errorline2"
+    },
+    "seek_bar": {
+      "id": "com.bskyb.skyq:id/seekbar"
+    },
+    "cancel_btn": {
+      "id": "com.bskyb.skyq:id/pin_cancel_button"
+    },
+    "delete_btn": {
+      "id": "com.bskyb.skyq:id/pin_delete_button"
+    },
+    "unknown_error_alert": {
+      "id": "com.bskyb.skyq:id/positive_button_id"
+    },
+    "search_icon": {
+      "id": "com.bskyb.skyq:id/action_search"
+    }
+  },
+  "catch_up_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "title": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "category_list": {
+      "id": "com.bskyb.skyq:id/nav_menu_item_title"
+    },
+    "pgm_title": {
+      "id": "com.bskyb.skyq:id/programme_title"
+    }
+  },
+  "content_provider_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "title": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "category_list": {
+      "id": "com.bskyb.skyq:id/nav_menu_item_title"
+    },
+    "pgm_title_list": {
+      "id": "com.bskyb.skyq:id/vod_content_title"
+    },
+    "image_list": {
+      "id": "com.bskyb.skyq:id/programme_image_gradient"
+    }
+  },
+  "pgm_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "title": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "title_list": {
+      "id": "com.bskyb.skyq:id/interim_cell_title"
+    },
+    "date_list": {
+      "id": "com.bskyb.skyq:id/interim_cell_date_metadata"
+    },
+    "more_options_list": {
+      "id": "com.bskyb.skyq:id/interim_cell_more_options_button"
+    }
+  },
+  "sky_movies_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "title": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "category_list": {
+      "id": "com.bskyb.skyq:id/nav_menu_item_title"
+    },
+    "sub_category_list": {
+      "id": "com.bskyb.skyq:id/nav_menu_item_title"
+    },
+    "pgm_image": {
+      "id": "com.bskyb.skyq:id/programme_image"
+    },
+    "pgm_title": {
+      "id": "com.bskyb.skyq:id/interim_title"
+    },
+    "more_options_btn": {
+      "id": "com.bskyb.skyq:id/interim_more_options_button"
+    },
+    "download_btn": {
+      "text": "Download"
+    },
+    "more_options_list": {
+      "id": "android:id/text1"
+    },
+    "uuid_info_list": {
+      "id": "com.bskyb.skyq:id/programme_image_channel_content_description"
+    }
+  },
+  "more_options_util_page": {
+    "pgm_strip_options_button": {
+      "id": "com.bskyb.skyq:id/collection_cell_more_options_button"
+    },
+    "more_options_qa": {
+      "id": "com.bskyb.skyq:id/more_options_qa"
+    },
+    "more_options_list": {
+      "id": "android:id/text1"
+    }
+  },
+  "downloads_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "unique_value": {
+      "text": "Downloads"
+    },
+    "title": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "empty_msg": {
+      "id": "com.bskyb.skyq:id/empty_find_downloads"
+    },
+    "program_title_list": {
+      "id": "com.bskyb.skyq:id/programme_title"
+    },
+    "pgm_episode": {
+      "id": "com.bskyb.skyq:id/interim_season_episode"
+    },
+    "program_start_time_list": {
+      "id": "com.bskyb.skyq:id/collection_cell_metadata_1"
+    },
+    "pgm_synopsis": {
+      "id": "com.bskyb.skyq:id/collection_cell_synopsis"
+    },
+    "record_status": {
+      "id": "com.bskyb.skyq:id/collection_cell_metadata_2"
+    },
+    "pgm_duration": {
+      "id": "com.bskyb.skyq:id/collection_cell_duration"
+    },
+    "more_options_btn": {
+      "id": "com.bskyb.skyq:id/interim_more_options_button"
+    },
+    "play_icon_xpath": {},
+    "pgm_metadata_list": {
+      "id": "com.bskyb.skyq:id/collection_cell_content_container"
+    },
+    "continue_btn": {
+      "id": "com.bskyb.skyq:id/positive_button_id"
+    },
+    "alert_window_48hrs": {
+      "id": "com.bskyb.skyq:id/text_id"
+    },
+    "cancel_btn": {
+      "id": "com.bskyb.skyq:id/negative_button_id"
+    },
+    "downlaod_icon_id": {
+      "id": "com.bskyb.skyq:id/programme_image_download"
+    }
+  },
+  "search_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/action_search"
+    },
+    "search_icon": {
+      "id": "com.bskyb.skyq:id/action_search"
+    },
+    "search_text_field": {
+      "id": "com.bskyb.skyq:id/search_edit_text"
+    },
+    "results_list": {
+      "id": "com.bskyb.skyq:id/search_results_text"
+    },
+    "clear_search": {
+      "id": "com.bskyb.skyq:id/search_cross_icon"
+    }
+  },
+  "search_results_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "meta_data_container_list": {
+      "id": "com.bskyb.skyq:id/collection_cell_content_container"
+    },
+    "program_title_list": {
+      "id": "com.bskyb.skyq:id/programme_title"
+    },
+    "pgm_episode": {
+      "id": "com.bskyb.skyq:id/interim_season_episode"
+    },
+    "pgm_synopsis": {
+      "id": "com.bskyb.skyq:id/collection_cell_synopsis"
+    },
+    "pgm_duration": {
+      "id": "com.bskyb.skyq:id/collection_cell_duration"
+    },
+    "hd_badge": {
+      "id": "com.bskyb.skyq:id/hd_badge"
+    },
+    "audio_desc_badge": {
+      "id": "com.bskyb.skyq:id/audio_description_badge"
+    },
+    "left_nav_filters": {
+      "id": "com.bskyb.skyq:id/nav_menu_item_title"
+    },
+    "start_date_time": {
+      "id": "com.bskyb.skyq:id/collection_cell_metadata_1"
+    }
+  },
+  "pgm_list": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "program_title": {
+      "id": "com.bskyb.skyq:id/programme_title"
+    },
+    "pgm_episode": {
+      "id": "com.bskyb.skyq:id/interim_season_episode"
+    },
+    "program_start_time": {
+      "id": "com.bskyb.skyq:id/collection_cell_metadata_1"
+    },
+    "pgm_synopsis": {
+      "id": "com.bskyb.skyq:id/collection_cell_synopsis"
+    },
+    "record_status": {
+      "id": "com.bskyb.skyq:id/collection_cell_metadata_2"
+    },
+    "pgm_duration": {
+      "id": "com.bskyb.skyq:id/collection_cell_duration"
+    },
+    "more_options_btn": {
+      "id": "com.bskyb.skyq:id/interim_more_options_button"
+    },
+    "play_icon_xpath": {},
+    "pgm_metadata_list": {
+      "id": "com.bskyb.skyq:id/collection_cell_content_container"
+    },
+    "subtitle_badge": {
+      "id": "com.bskyb.skyq:id/subtitle_badge"
+    },
+    "hd_badge": {
+      "id": "com.bskyb.skyq:id/hd_badge"
+    },
+    "audio_desc_badge": {
+      "id": "com.bskyb.skyq:id/audio_description_badge"
+    },
+    "more_options_id": {
+      "id": "com.bskyb.skyq:id/collection_cell_more_options_button"
+    },
+    "play_icon_id": {
+      "id": "com.bskyb.skyq:id/programme_image_play"
+    },
+    "download_icon_id": {
+      "id": "com.bskyb.skyq:id/programme_image_download"
+    },
+    "age_rating_badge": {
+      "id": "com.bskyb.skyq:id/age_rating_badge"
+    }
+  },
+  "sign_in_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/login_button_strip"
+    },
+    "username": {
+      "id": "username"
+    },
+    "password": {
+      "id": "password"
+    },
+    "sign_in_btn": {
+      "id": "signinButton"
+    },
+    "account_prob_msg": {
+      "name": "Account problem"
+    },
+    "sign_in_prompt_btn": {
+      "id": "android:id/button1"
+    },
+    "remind_me_later_btn": {
+      "id": "remindMeLaterButton"
+    },
+    "term_and_conditions": {
+      "id": "serviceTermsAndConditions"
+    },
+    "tc_confirm_btn": {
+      "id": "submitButton"
+    }
+  },
+  "menu_list_util": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "menu_list": {
+      "id": "com.bskyb.skyq:id/nav_menu_item_title"
+    },
+    "ribbon_title": {
+      "id": "com.bskyb.skyq:id/a_z_recordings_ribbon_title"
+    }
+  },
+  "pgm_list_util": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "title": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "program_title": {
+      "id": "com.bskyb.skyq:id/programme_title"
+    },
+    "pgm_episode": {
+      "id": "com.bskyb.skyq:id/interim_season_episode"
+    },
+    "program_start_time": {
+      "id": "com.bskyb.skyq:id/collection_cell_metadata_1"
+    },
+    "pgm_synopsis": {
+      "id": "com.bskyb.skyq:id/collection_cell_synopsis"
+    },
+    "record_status": {
+      "id": "com.bskyb.skyq:id/collection_cell_metadata_2"
+    },
+    "pgm_duration": {
+      "id": "com.bskyb.skyq:id/collection_cell_duration"
+    },
+    "more_options_btn": {
+      "id": "com.bskyb.skyq:id/interim_more_options_button"
+    },
+    "play_icon_xpath": {},
+    "pgm_metadata_list": {
+      "id": "com.bskyb.skyq:id/collection_cell_content_container"
+    },
+    "subtitle_badge": {
+      "id": "com.bskyb.skyq:id/subtitle_badge"
+    },
+    "hd_badge": {
+      "id": "com.bskyb.skyq:id/hd_badge"
+    },
+    "audio_desc_badge": {
+      "id": "com.bskyb.skyq:id/audio_description_badge"
+    }
+  },
+  "az_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "unique_value": {
+      "text": "Recordings"
+    },
+    "channel_list": {
+      "id": "com.bskyb.skyq:id/a_z_recordings_list_channel"
+    },
+    "recordings_title_list": {
+      "id": "com.bskyb.skyq:id/a_z_recordings_list_title"
+    },
+    "ribbon_title": {
+      "id": "com.bskyb.skyq:id/a_z_recordings_ribbon_title"
+    }
+  },
+  "for_you_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "unique_value": {
+      "text": "Home"
+    },
+    "metadata_list": {
+      "id": "com.bskyb.skyq:id/for_you_cell_content_container"
+    },
+    "title_list": {
+      "id": "com.bskyb.skyq:id/foryou_title"
+    },
+    "age_rating_badge": {
+      "id": "com.bskyb.skyq:id/age_rating_badge"
+    },
+    "subtitle_badge": {
+      "id": "com.bskyb.skyq:id/subtitle_badge"
+    },
+    "series_episode": {
+      "id": "com.bskyb.skyq:id/foryou_series_episode"
+    },
+    "record_reason": {
+      "id": "com.bskyb.skyq:id/foryou_rec_reason"
+    }
+  },
+  "sky_box_sets_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "unique_value": {
+      "text": "Sky Box Sets"
+    }
+  },
+  "test_page": {
+    "list_view": {
+      "class": "android.widget.ListView"
+    },
+    "channel_name_ele": {
+      "id": "com.bskyb.skyq:id/programme_image_channel_content_description"
+    },
+    "pgm_parent_ele": {
+      "class": "android.widget.LinearLayout"
+    },
+    "date_time": {
+      "id": "com.bskyb.skyq:id/interim_metadata_1"
+    },
+    "test_ele": {
+      "id": "com.bskyb.skyq:id/interim_cell_content_container"
+    },
+    "parent_xpath": {
+      "xpath": "/.."
+    },
+    "more_options": {
+      "id": "com.bskyb.skyq:id/interim_more_options_button"
+    },
+    "record_status": {
+      "id": "com.bskyb.skyq:id/collection_cell_metadata_2"
+    },
+    "program_desc_list": {
+      "id": "com.bskyb.skyq:id/collection_cell_synopsis"
+    },
+    "btn_tag": {
+      "tagName": "Button"
+    },
+    "more_options_xpath": {
+      "xpath": "value"
+    }
+  },
+  "on_my_tablet_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "unique_value": {
+      "text": "On My Tablet"
+    },
+    "empty_find_downloads": {
+      "id": "com.bskyb.skyq:id/empty_find_downloads"
+    }
+  },
+  "my_photos_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "unique_value": {
+      "text": "My Photos"
+    }
+  },
+  "my_q_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "unique_value": {
+      "text": "My Q"
+    }
+  },
+  "recording_details_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/programme_title"
+    },
+    "play_icon_id": {
+      "id": "com.bskyb.skyq:id/programme_image_play"
+    },
+    "age_rating_badge": {
+      "id": "com.bskyb.skyq:id/age_rating_badge"
+    },
+    "more_options_id": {
+      "id": "com.bskyb.skyq:id/collection_cell_more_options_button"
+    },
+    "more_options_list": {
+      "id": "com.bskyb.skyq:id/popup_more_options_list"
+    },
+    "select_more_options":{
+      "id": "android:id/text1"
+    },
+    "more_options_qa": {
+      "id": "com.bskyb.skyq:id/more_options_qa"
+    }
+  },
+  "settings_page": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "unique_value": {
+      "text": "Settings"
+    }
+  },
+  "sports_top_picks": {
+    "unique": {
+      "id": "com.bskyb.skyq:id/nav_menu_title"
+    },
+    "unique_value": {
+      "text": "Sports"
+    },
+    "pgm_title": {
+      "id": "com.bskyb.skyq:id/programme_title"
+    }
+  }
+}

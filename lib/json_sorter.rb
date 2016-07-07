@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'json'
 require 'stringio'
 
@@ -8,9 +10,13 @@ class JsonSorter
   end
 
   def generate_sorted_from_stream(json_stream)
-    if detect_duplicates(json_stream) == []
+    duplicate_errors = detect_duplicates(json_stream)
+    if duplicate_errors == []
       json_stream.seek(0, IO::SEEK_SET)
-      sort(JSON.parse(json_stream))
+      sort(JSON.parse(json_stream.read), $stdout)
+    else
+      duplicate_errors.each { |err| $stdout.puts(err) }
+      exit 1
     end
   end
 
@@ -69,8 +75,13 @@ class JsonSorter
   def detect_duplicates(json_stream)
     def go(stream, line, collector)
       key_lines = {}
+      next_tok = nil
       begin
-        token, line = next_token(stream, line)
+        if next_tok
+          token= next_tok
+        else
+          token, line = next_token(stream, line)
+        end
         if token.nil?
           return [collector, line]
         elsif token == '{'
@@ -89,7 +100,10 @@ class JsonSorter
             else
               key_lines[token] << line
             end
+            next_tok = nil
           end
+        else
+          next
         end
       end while (token)
     end
@@ -191,5 +205,10 @@ class JsonSorter
     end
   end
 
+end
 
+if ARGV.length == 1
+  json_file = ARGV[0]
+  json_sorter = JsonSorter.new
+  json_sorter.generate_sorted_from_file(json_file)
 end
