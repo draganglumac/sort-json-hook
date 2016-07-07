@@ -7,7 +7,7 @@
   "box_connect_alert_page": {
     "unique": {
       "id": "com.bskyb.skyq:id/box_img_id"
-    },
+    }
     "connect_btn": {
       "id": "com.bskyb.skyq:id/positive_button_id"
     },
