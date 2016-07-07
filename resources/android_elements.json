@@ -10,7 +10,7 @@
     },
     "connect_btn": {
       "id": "com.bskyb.skyq:id/positive_button_id"
-    } 
+    }
     "error_msg": {
       "id": "com.bskyb.skyq:id/text_id"
     },
