@@ -3,7 +3,7 @@
     "menu_list": {
       "id": "com.bskyb.skyq:id/nav_menu_item_title"
     }
-  }
+  },
   "box_connect_alert_page": {
     "unique": {
       "id": "com.bskyb.skyq:id/box_img_id"

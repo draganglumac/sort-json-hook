@@ -13,9 +13,15 @@ class JsonSorter
     duplicate_errors = detect_duplicates(json_stream)
     if duplicate_errors == []
       json_stream.seek(0, IO::SEEK_SET)
-      sort(JSON.parse(json_stream.read), $stdout)
+      begin
+        json = JSON.parse(json_stream.read)
+        sort(json, $stdout)
+      rescue
+        $stderr.puts("[ERROR] Invalid JSON in file `#{ARGV[0]}`. Please fix the errors in JSON before sorting.")
+        exit 1
+      end
     else
-      duplicate_errors.each { |err| $stdout.puts(err) }
+      duplicate_errors.each { |err| $stderr.puts(err) }
       exit 1
     end
   end
