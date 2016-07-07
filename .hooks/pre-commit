@@ -1,0 +1,25 @@
+#!/bin/sh
+
+SORT_JSON="${GIT_DIR}/../.sort_json"
+
+if [ -f "${SORT_JSON}" ]
+then
+  while IFS='' read -r json_file || [[ -n "${json_file}" ]]
+  do
+    if [ "${json_file}" != "" ]
+    then
+      echo "Sorting JSON file ${json_file}..."
+      "${GIT_DIR}/hooks/json_sorter.rb" "${GIT_DIR}/../${json_file}" > temp
+      if [ $? -eq 0 ]
+      then
+        mv temp "${json_file}.copy"
+        git add "${json_file}.copy"
+        echo "Sorted."
+      else
+        echo "ERROR: Commit to Git failed! Please fix the errors and try again."
+        rm temp
+        exit 1
+      fi
+    fi
+  done < "${SORT_JSON}"
+fi
