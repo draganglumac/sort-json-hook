@@ -1,0 +1,16 @@
+{
+  "bob": {
+    "age": 42,
+    "aunt": "Shirley",
+    "negative-age": -32.4,
+    "next_level": {
+      "a": 1,
+      "b": 5,
+      "c": {
+      },
+      "d": 4
+    },
+    "relations": true,
+    "uncle": "Fred"
+  }
+}

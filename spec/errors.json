@@ -1,0 +1,12 @@
+{
+  "bob": {
+    "uncle": "Fred",
+    "uncle": "Bob",
+    "aunt": "Shirley",
+    "relations": true,
+    "age": 42,
+    poopsie "roger": "federer",
+    "negative-age": -32.4
+  }
+}
+

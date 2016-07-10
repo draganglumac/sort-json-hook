@@ -1,0 +1,19 @@
+{
+  "bob": {
+    "uncle": "Fred",
+    "aunt": "Shirley",
+    "next_level" : {
+      "a": 1,
+      "b": 2,
+      "c": {},
+      "d": 4,
+      "b": 5
+    },
+    "relations": true,
+    "age": 42,
+    poopsie "roger": "federer",
+    "uncle": "Bob",
+    "negative-age": -32.4
+  }
+}
+
